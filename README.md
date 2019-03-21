@@ -1,4 +1,4 @@
-【南极】node 中间层
+egg node 中间层
 
 ## QuickStart
 
