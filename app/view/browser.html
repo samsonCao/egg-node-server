@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="../public/styles/common.css">
+    <style>
+        .exception__flex{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+        .exception__dl{
+            margin-left: 40px;
+        }
+        .exception__dt{
+            text-align: center;
+        }
+        .exception__dd{
+            line-height: 32px;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            white-space: nowrap;
+            padding: 0 10px;
+            font-size: 14px;
+            border-radius: 4px;
+            height: 32px;
+            user-select: none;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+            position: relative;
+            box-shadow: 0 2px 0 rgba(0,0,0,.015);
+            color: #1890ff;
+            background-color: #fff;
+            text-decoration:none;
+            margin-top: 10px;
+            border: 1px solid #1890ff ;
+        }
+        .exception__banner img{
+            width: 180px;
+            height: 200px;
+        }
+        h2{
+            color: #434e59;
+        }
+        .exception__info__desc{
+            font-size: 16px;
+        }
+        .exception__color_red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class='exception'>
+    <div class='exception__banner'>
+        <img src='../public/images/browser-icon.png' alt='' />
+    </div>
+    <div class='exception__info'>
+        <h2>检测到史前时代的IE6浏览器</h2>
+        <div class='exception__info__desc'>南极运管通
+            <span class="exception__color_red">暂不支持过低版本的浏览器</span>
+        </div>
+        <div class='exception__info__desc' style="border-top: 1px solid #f1f1f1;margin-top: 40px;">
+            为了华丽的体验，来试一试这些更快更有爱的浏览器
+        </div>
+        <div class='exception__flex'>
+            <div class='exception__dl'>
+                <div class='exception__dt'>
+                    <img src='../public/images/google-icon.png' alt='' />
+                </div>
+                <a href="https://www.google.cn/chrome/" class='exception__dd'>立即下载</a>
+            </div>
+            <div class='exception__dl'>
+                <div class='exception__dt'>
+                    <img src='../public/images/firefox-icon.png' alt='' />
+                </div>
+                <a href="http://www.firefox.com.cn" class='exception__dd'>立即下载</a>
+            </div>
+            <div class='exception__dl'>
+                <div class='exception__dt'>
+                    <img src='../public/images/safari-icon.png' alt='' />
+                </div>
+                <a href="https://www.apple.com/cn/safari/" class='exception__dd'>立即下载</a>
+            </div>
+            <div class='exception__dl'>
+                <div class='exception__dt'>
+                    <img src='../public/images/ie-icon.png' alt='' />
+                </div>
+                <a href="" class='exception__dd'>立即下载</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,377 @@
+{
+  "host": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "client_id": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "client_secret": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "ossFolders": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "keys": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "middleware": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+  "view": {
+    "root": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "defaultViewEngine": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "mapping": {
+      ".html": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts"
+    },
+    "cache": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "dir": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "gzip": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "dynamic": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-static/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "path": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "security": {
+    "xframe": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "value": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csrf": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "useSession": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "protocolWhiteList": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "bodyParser": {
+    "enable": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "encoding": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "formLimit": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "jsonLimit": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "strict": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "fileExtensions": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "fileSize": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "autoFields": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "cors": {
+    "credentials": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts"
+  },
+  "oss": {
+    "client": {
+      "accessKeyId": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "accessKeySecret": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "bucket": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "endpoint": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+      "timeout": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts"
+    },
+    "default": {
+      "timeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-oss/config/config.default.js"
+    },
+    "useAgent": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-oss/config/config.default.js"
+  },
+  "alinode": {
+    "enable": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "appid": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "secret": "/Users/samcao/myWebFIle/egg-node-server/config/config.default.ts",
+    "server": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "cmddir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "logdir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "error_log": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "packages": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "reconnectDelay": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "heartbeatInterval": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js",
+    "reportInterval": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-alinode/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "raven": {
+    "dsn": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-raven/config/config.default.js",
+    "options": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg-raven/config/config.default.js"
+  },
+  "env": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "sit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "uat": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "prod": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "building": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "prestart": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "start": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "clean": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "commit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@types/jquery": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-oss": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-raven": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "moment": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "mz": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "qs": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "set-cookie-parser": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "ws": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "@commitlint/config-angular": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "commitizen": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "cz-conventional-changelog": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "husky": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "pre-commit": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "config": {
+      "commitizen": {
+        "path": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+      }
+    },
+    "husky": {
+      "hooks": {
+        "commit-msg": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+      }
+    },
+    "engines": {
+      "node": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "author": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/samcao/myWebFIle/egg-node-server/node_modules/egg/config/config.default.js"
+}

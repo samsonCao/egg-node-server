@@ -1,0 +1,16 @@
+.DS_STORE
+*.log
+node_modules
+build
+dist
+spa-dist
+coverage
+.idea/
+.yarn-cache
+.vscode
+package-lock.json
+yarn.lock
+.docz
+.last-version
+dll
+coverage

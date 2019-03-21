@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>websocket</title>
+</head>
+<body>
+<div id="id">1</div>
+<script>
+    var mess = document.getElementById("id");
+// 浏览器是否支持WebSocket
+    if (window.WebSocket) {
+        console.log("支持");
+    } else {
+        console.log("不支持");
+    }
+    var ws = new WebSocket("ws://localhost:8080");
+
+    ws.onopen = function(){
+        ws.send('nihao websocket');
+        console.log("ws opened.");
+    };
+    ws.onmessage = function(ev){
+        var time = new Date();
+        console.log(ev.data);
+        mess.innerHTML=time+"消息："+ev.data+"<br>"
+    };
+    ws.onclose = function(ev){
+        console.log("ws close.");
+    };
+    ws.onerror = function(ev){
+        console.log(ev);
+        alert("ws error.");
+    };
+</script>
+</body>
+<html>
